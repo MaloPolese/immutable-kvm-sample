@@ -1,0 +1,5 @@
+---
+user: debian
+service_description: "prometheus-app"
+java_path: /usr/bin/java 
+app_path: /home/{{user}}/prometheus_metric_generator.jar

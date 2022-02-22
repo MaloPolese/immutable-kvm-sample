@@ -1,0 +1,11 @@
+- name: geerlingguy.java
+
+- name: geerlingguy.docker
+
+- name: cloudalchemy.prometheus
+
+# - name: ome.docker
+# - src: https://github.com/ome/ansible-role-docker
+
+# - name: ome.prometheus
+# - src: https://github.com/ome/ansible-role-prometheus

@@ -1,0 +1,11 @@
+[Unit]
+Description={{ service_description }}
+After=syslog.target network.target
+
+[Service]
+Type=simple
+
+ExecStart={{ java_path }} -jar {{ app_path }}
+
+[Install]
+WantedBy=multi-user.target

@@ -80,6 +80,7 @@ EOF
 
   provisioner "ansible-local" {
     playbook_file = "ansible/playbook.yml"
+    galaxy_file   = "ansible/requirements.yml"
     playbook_dir = "ansible"
   }
 
